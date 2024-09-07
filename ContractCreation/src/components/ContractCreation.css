@@ -1,0 +1,109 @@
+/* Reset and base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+/* Contract Creation Page Styles */
+.contract-creation {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+.header {
+    background-color: #9cd94e;
+    padding: 20px;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.contract-form-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.contract-form-container h2,
+.contract-preview h2 {
+    color: black;
+}
+
+.contract-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contract-form-container input,
+.contract-form-container textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+}
+
+.contract-form-container textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.contract-preview {
+    margin-top: 30px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.preview-text {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.preview-text p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Style for the PDF download link */
+.contract-preview a {
+    display: inline-block;
+    background-color: #6A5ACD;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contract-preview a:hover {
+    background-color: #5B4ACE;
+}
+
+/* Ensure button styling is consistent */
+.contract-creation button {
+    background-color: #6A5ACD;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contract-creation button:hover {
+    background-color: #5B4ACE;
+}
